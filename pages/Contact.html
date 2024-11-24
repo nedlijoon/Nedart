@@ -1,0 +1,119 @@
+<!DOCTYPE>  
+<html dir="rtl" lang="fa" id="app">  
+
+  <head>  
+      <link rel="icon"   href="./logo.ico"/>
+      <link rel="stylesheet"  type="text/css" href="./style sheet/style.css"/>
+      <meta charset="utf-8">
+      <!-- Meta Title  -->
+      <title> ندآرت  - ارتباط با من</title>  
+  </head>  
+
+  <style>
+    body {
+      background-image: url('./media/ax/back2.jpeg');
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%;
+    }
+  </style>
+    
+  <body> 
+    <div id="main"> 
+        <div id="header">  
+        <ul>
+            <li><strong><a href="index.html" title="خانه"> خانه </a> </li></strong></li>
+            <li><strong><a href="About Me.html" title="من"> من </a> </li></strong>
+            <li><strong><a href="Project.html" title="فعالیت ها">فعالیت ها</a> </li></strong>
+            <li><strong><a href="Favorit.html" title="علاقه مندیها">علاقه مندیها</a> </li></strong>
+            <li><strong><a href="Gallery.html" title=گالری">گالری</a></li></strong>
+            <li><strong><a href="Contact.html" title="ارتباط با من">ارتباط با من</a> </li></strong>
+        </ul>
+        </div>
+        <br><br>
+
+        <table style="width:40%">
+            <tr> 
+              <th>
+
+<div class="myBorder">
+        <h1>ارتباط با من</h1>
+        <div class= "main-font">
+        <form  action="./Thank you.html" method="post">
+            <label for="name"> نام: </label>
+            <input type="text" id="name" name="name"   required maxlength="10" placeholder="نام خود را وارد کنید">
+            <br></br>
+            <label for="country"> کشور: </label>
+            <input type="text" id="country" placeholder="کشور محل زندگی خود را وارد کنید">
+            <br></br>
+            <label for="email"> ایمیل: </label>
+            <input type="email" id="email" name="email"   placeholder="ایمیل خود را وارد کنید">
+            <br></br>
+            <label for="phone"> تلفن: </label>
+            <input type="tel" id="phone" name="tel"   placeholder="09.........">
+            <br></br>
+            <label for="password"> رمزعبور: </label>
+            <input type="text" id="password" name="password" required maxlength="10" placeholder="رمز عبور خود را وارد کنید">
+            <br><br>
+            
+            <div>
+                <label for="background"> جنسیت:</label>
+                <label for="male">مرد</lable>
+                <input type="radio" id="male" name="gender" value="male">
+
+                <label for="female">زن</lable>
+                <input type="radio" id="female" name="gender" value="female"> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+            
+                <label for="background" >تاریخ تولد:</label>
+                <input type="date" id="birthday">
+            </div>
+            <br>
+            <div>
+                <label for="background"> علاقه مندی: </label>
+                <label for="sports"> ورزش </label>
+                <input type="checkbox" id="sports" name="interest" value="sports">
+                <label for="music"> موسیقی </label>
+                <input type="checkbox" id="music" name="interest" value="music">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <label for="background">رنگ موردعلاقه:</label>
+                <input type="color" id="background" >
+            </div>
+   
+            <br>
+            <label for="profile-photo"> انتخاب تصویر: </label>
+            <input type="file" id="profile-photo" accept="images/jpeg,images/png">
+
+            <br><br>
+            <label for="range"> چقدر محتوای صفحه ام رو دوست داشتی؟  </label>
+            <input type="range" id="range" min="0" max="100" value="30" oninput="num.value=this.value">
+            <output id="num">0</output>
+
+            <br><br>
+            <div>
+            <label for="reference">نحوه آشنایی با صفحه من</label>
+             <select id="reference" name="reference">
+               <option value="insta">اینستاگرام</option>
+               <option value="doost">دوست</option>
+               <option value="etefaghi">اتفاقی</option>
+             </select>
+            </div>
+            <br></br>
+            چطور میتونم کمکت کنم؟
+            <textarea name="message" rows="3" cols="20">
+            </textarea>
+        </div>
+        <br><br>
+        <input type="submit" value="ارسال" size="30px">
+        </form>
+    </div>
+</th>
+</tr>
+        </table>
+
+
+
+    </body>
+    </html>
